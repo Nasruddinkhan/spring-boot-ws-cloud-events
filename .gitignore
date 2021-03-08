@@ -21,3 +21,27 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Generated files
+.idea/**/contentModel.xml
+.mvn/**/maven-wrapper.jar
+.mvn
+
+target/
+
+
+.idea/
+
+*.iml
+modules.xml
+.idea/misc.xml
+*.ipr
+
+# Sonarlint plugin
+.idea/sonarlint
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
