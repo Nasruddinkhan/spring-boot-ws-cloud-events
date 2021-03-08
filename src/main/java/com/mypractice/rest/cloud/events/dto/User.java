@@ -1,9 +1,10 @@
-package com.mypractice.rest.cloud.events;
+package com.mypractice.rest.cloud.events.dto;
 
 public class User {
     private String username;
     private String firstName;
     private String lastName;
+    private String message;
     private Integer age;
 
     public String getUsername() {
@@ -42,13 +43,11 @@ public class User {
         return this;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "username='" + username + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", age=" + age +
-                '}';
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 }
